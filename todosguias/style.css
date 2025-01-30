@@ -56,11 +56,13 @@ nav{
 }
 
 nav a{
+    font-size: 1.5em;
     font-family:'josefinSans';
     color: rgba(0, 0, 0, 0.252);
     text-decoration: none;
     margin: 10px;
-
+    max-width: 1300px;
+    min-width: 320px;
 }
 
 
