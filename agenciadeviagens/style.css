@@ -1,0 +1,87 @@
+@charset"UTF-8";
+
+@font-face {
+    font-family:Raleway ;
+    src: url(fontes/Raleway-VariableFont_wght.ttf);}
+
+
+@font-face {
+    font-family:Poppins ;
+    src: url(fontes/Poppins-Black.ttf);
+}
+
+:root{
+    --color1: #6096BA;
+    --color2:#6082F0;
+    --color3:#E3170A;
+    --color4:#F25757;
+}
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #6096BA, white);
+}
+
+
+header h1{
+    font-family:Poppins;
+    font-size: 5em;
+    color:white ;
+    text-align: center;
+}
+
+header h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+
+nav{
+}
+
+
+main{
+    margin: 40px;
+}
+
+
+main h2{
+    font-size: 5em;
+    color: white;
+    text-align: center;
+}
+
+.aviatorleft{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.card{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 3px;
+    border-radius: 4px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.card:hover{
+    background-color:rgba(245, 245, 245, 0.892);
+}
+
+.aviatorpequeno{
+    height: 50px;
+    width: 50px;
+}
